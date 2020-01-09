@@ -2,17 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7d810b3c-7d85-44f0-be14-948a7e732356</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <ProjectGuid>130f434f-7873-4f20-a9d2-89419053b3a0</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>BostonHousingDataset.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>TestingML</Name>
-    <RootNamespace>TestingML</RootNamespace>
-    <TestFramework>unittest</TestFramework>
+    <Name>BostonHousingDataset</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="TestingML.py" />
+    <Compile Include="BostonHousingDataset.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
