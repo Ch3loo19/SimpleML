@@ -83,3 +83,4 @@ model.compile(optimizer='rmsprop',
 model.fit(x_train, y_train, epochs=4, batch_size=512)
 results = model.evaluate(x_test, y_test)
 print (results)
+print (model.predict(x_test))
